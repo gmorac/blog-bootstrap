@@ -1,0 +1,50 @@
+.header {
+	margin-bottom: .5em;
+	padding: .5em;
+}
+.header-image {
+	border:  1px solid #159db5;
+	border-radius: 50%;
+	width: 140px;
+}
+.navbar-menu {
+	background: #4c4a4a;
+	border-radius: 5px 5px 0 0;
+}
+.header-photo {
+	margin: 0;
+	padding-top: .5em;
+}
+.header-social {
+	position: absolute;
+    bottom: 10%;
+    right: 0;
+    text-align: center;
+}
+.header-social-link {
+	font-size: 2em;
+    color: #159db5;
+    margin: 0 .3em;
+    padding: 0 .5em;
+}
+.header-social-link:hover {
+	color: #15b591;
+	text-decoration: none;
+}
+.header-title {
+	color: #159db5;
+	margin: .5em 0;
+}
+
+@media screen and (max-width: 767px) {
+	.header-content {
+		text-align: center;
+	}
+	.header-photo,
+	.header-title {
+		text-align: center;
+	}
+	.header-social {
+		position: static;
+	}	
+}
